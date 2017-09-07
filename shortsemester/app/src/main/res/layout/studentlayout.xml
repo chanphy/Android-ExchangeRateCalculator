@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/shuru"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:text="输入"
+            android:background="@drawable/text_view_border4"
+            android:layout_width="0dp"
+            android:layout_height="100dp" />
+        <TextView
+            android:id="@+id/waibi"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:text="外币"
+            android:background="@drawable/text_view_border2"
+            android:layout_width="0dp"
+            android:layout_height="100dp" />
+
+        <TextView
+            android:id="@+id/benbi"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:text="本币"
+            android:background="@drawable/text_view_border3"
+            android:layout_width="0dp"
+            android:layout_height="100dp" />
+
+        <TextView
+            android:id="@+id/shuchu"
+            android:textSize="16dp"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:text="输出"
+            android:background="@drawable/text_view_border5"
+            android:layout_width="0dp"
+            android:layout_height="100dp" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
